@@ -40,11 +40,10 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ## 🏗 Arquitectura General
 
-```
-![alt text](docs/architecture-overview.png)
-![imagen](doc/architecture-overview.png)
 
-```
+![img1](docs/architecture-overview.png)
+
+
 
 - WhatsApp envía eventos cuando se reciben mensajes.
 - Cal.com genera eventos cuando se agenda una cita.
