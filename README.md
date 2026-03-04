@@ -55,26 +55,27 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ## 🔄 Flujos Implementados
 
+  ![img2](docs/scenario-booking-sync.png)
+
 ### 1️⃣ Registro de Reservas
 - Recepción de evento desde Cal.com.
 - Extracción de datos de la cita.
 - Registro estructurado en Google Sheets.
-  
-  ![img2](docs/scenario-booking-sync.png)
 
-### 3️⃣ Recordatorios Automáticos
+### 2️⃣ Recordatorios Automáticos
+
+  ![img3](docs/scenario-reminders.png)
+
 - Lectura programada desde Google Sheets.
 - Envío automático de mensajes vía WhatsApp.
-  
-  ![img3](docs/scenario-reminders.png)
- 
 
-### 2️⃣ Respuestas Automáticas
+### 3️⃣ Respuestas Automáticas
+
+ ![img4](docs/scenario-auto-reply.png)
+
 - Recepción de eventos entrantes desde WhatsApp.
 - Procesamiento del mensaje.
 - Envío de respuesta automática.
-
- ![img4](docs/scenario-auto-reply.png)
 
 ---
 
