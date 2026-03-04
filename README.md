@@ -41,7 +41,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 ## 🏗 Arquitectura General
 
 ```
-![Architecture Overview](docs/architecture-overview.png)
+![alt text](docs/architecture-overview.png)
 ```
 
 - WhatsApp envía eventos cuando se reciben mensajes.
