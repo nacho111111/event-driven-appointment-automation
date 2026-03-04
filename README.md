@@ -49,24 +49,32 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 - Cal.com genera eventos cuando se agenda una cita.
 - Make procesa los eventos y ejecuta acciones según reglas configuradas.
 - Google Sheets almacena y organiza la información.
+- Usuario interactua con whatsApp se le envia un mensaje predefinido
 
 ---
 
 ## 🔄 Flujos Implementados
 
-### 1️⃣ Recordatorios Automáticos
+### 1️⃣ Registro de Reservas
+- Recepción de evento desde Cal.com.
+- Extracción de datos de la cita.
+- Registro estructurado en Google Sheets.
+  
+  ![img2](docs/scenario-booking-sync.png)
+
+### 3️⃣ Recordatorios Automáticos
 - Lectura programada desde Google Sheets.
 - Envío automático de mensajes vía WhatsApp.
+  
+  ![img3](docs/scenario-reminders.png)
+ 
 
 ### 2️⃣ Respuestas Automáticas
 - Recepción de eventos entrantes desde WhatsApp.
 - Procesamiento del mensaje.
 - Envío de respuesta automática.
 
-### 3️⃣ Registro de Reservas
-- Recepción de evento desde Cal.com.
-- Extracción de datos de la cita.
-- Registro estructurado en Google Sheets.
+ ![img4](docs/scenario-auto-reply.png)
 
 ---
 
