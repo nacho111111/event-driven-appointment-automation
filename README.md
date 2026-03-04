@@ -55,9 +55,10 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ## 🔄 Flujos Implementados
 
-  ![img2](docs/scenario-booking-sync.png)
-
 ### 1️⃣ Registro de Reservas
+
+ ![img2](docs/scenario-booking-sync.png)
+
 - Recepción de evento desde Cal.com.
 - Extracción de datos de la cita.
 - Registro estructurado en Google Sheets.
