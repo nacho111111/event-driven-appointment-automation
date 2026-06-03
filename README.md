@@ -1,6 +1,6 @@
-# 📅 Sistema de Automatización de Reservas y Mensajería
+# Sistema de Automatización de Reservas y Mensajería
 
-## 🚀 Descripción General
+## Descripción General
 
 Sistema de automatización orientado a la gestión de citas y comunicación con clientes mediante integración de servicios externos.
 
@@ -14,7 +14,7 @@ El sistema permite responder mensajes, registrar reservas y enviar recordatorios
 
 ---
 
-## 🎯 Problema
+## Problema
 
 La gestión manual de citas implicaba:
 
@@ -25,7 +25,7 @@ La gestión manual de citas implicaba:
 
 ---
 
-## 💡 Solución Implementada
+## Solución Implementada
 
 Se diseñaron flujos automatizados basados en eventos que permiten:
 
@@ -38,7 +38,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ---
 
-## 🏗 Arquitectura General
+## Arquitectura General
 
 
 ![img1](docs/architecture-overview.png)
@@ -53,7 +53,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ---
 
-## 🔄 Flujos Implementados
+## Flujos Implementados
 
 ### 1️⃣ Registro de Reservas
 
@@ -80,7 +80,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ---
 
-## 📈 Impacto
+## Impacto
 
 - 🔹 Reducción significativa de tareas manuales  
 - 🔹 Disminución de errores administrativos  
@@ -89,7 +89,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 
 ---
 
-## 🛠 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Orquestación: Make  
 - Mensajería: WhatsApp Cloud API  
