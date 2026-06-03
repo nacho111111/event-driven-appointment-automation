@@ -48,7 +48,7 @@ El sistema funciona bajo una arquitectura orientada a eventos, donde cada servic
 - WhatsApp envía eventos cuando se reciben mensajes.
 - Cal.com genera eventos cuando se agenda una cita.
 - Make procesa los eventos y ejecuta acciones según reglas configuradas.
-- Google Sheets almacena y organiza la información.
+- Google Sheets almacena, organiza y facilita el manejo de la información.
 - Usuario interactua con whatsApp se le envia un mensaje predefinido
 
 ---
